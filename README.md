@@ -1,0 +1,2 @@
+# dist-multi-threaded-file-server
+Implemented a basic single-threaded file server that supports four basic operations: UPLOAD, DOWNLOAD, DELETE, and RENAME. We assume that the file service is implemented using a connection-oriented protocol, in which the client and server first establish a network connection, negotiate the operation to be performed, and carry out the file transfer through the same connection.  Based on the single-threaded server, implemented a multi-threaded file server
